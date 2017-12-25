@@ -10,7 +10,7 @@ EstiAccess X is a remote management UI and daemon manager built for Minecraft Se
 - [x] Direct console interaction
 - [x] FS Interaction (update plugins, etc)
     - Implemented using a subset of the FTP Protocol.
-- [ ] Systemd stuff
+- [ ] Systemd/Init System intergration.
 
 ### EAX  Client
 - [x] Console View
@@ -19,4 +19,21 @@ EstiAccess X is a remote management UI and daemon manager built for Minecraft Se
 - [ ] Multi-server view
 
 ---
-Enjoy!
+## Usage
+To start the EAX Server:
+```bash
+cd EAXServer
+node index.js
+```
+EAX will load the Minecraft Server (as defined in **spawn.sh**) using a jar given to it (default: PaperSpigot-latest.jar). EAX will set the server's working directory to the "**server**" directory.
+
+EAX Server will listen on port 3000 for the console management, and port 3001 for the file server.
+
+To start the EAX Client:
+```bash
+cd EAXClient
+electron .
+```
+---
+
+**Enjoy!** Remember that EstiAccess X is still in development and things will get better over time.
