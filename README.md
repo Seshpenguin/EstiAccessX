@@ -8,7 +8,9 @@ EstiAccess X is a remote management UI and daemon manager built for Minecraft Se
 ### EAX Server
 - [x] Automatic start/restart
 - [x] Direct console interaction
-- [ ] FS Interaction (update plugins, etc)
+- [x] FS Interaction (update plugins, etc)
+    - Implemented using a subset of the FTP Protocol.
+- [ ] Systemd stuff
 
 ### EAX  Client
 - [x] Console View
