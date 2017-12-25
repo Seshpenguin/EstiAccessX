@@ -23,6 +23,7 @@ EstiAccess X is a remote management UI and daemon manager built for Minecraft Se
 To start the EAX Server:
 ```bash
 cd EAXServer
+npm install # only for first run.
 node index.js
 ```
 EAX will load the Minecraft Server (as defined in **spawn.sh**) using a jar given to it (default: PaperSpigot-latest.jar). EAX will set the server's working directory to the "**server**" directory.
@@ -32,6 +33,7 @@ EAX Server will listen on port 3000 for the console management, and port 3001 fo
 To start the EAX Client:
 ```bash
 cd EAXClient
+npm install # only for first run.
 electron .
 ```
 ---
