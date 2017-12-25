@@ -7,6 +7,8 @@
 var colors = require('colors');
 var io = require('socket.io')();
 var fs = require('fs');
+const ftpd = require('simple-ftpd')
+
 const readline = require('readline');
 const { spawn } = require('child_process');
 var stdin = process.openStdin();
@@ -40,11 +42,53 @@ io.on('connection', function (socket) {
 });
 io.listen(3000);
 
-console.log('[EstiX] Listening on port 3000'.blue);
+console.log('[EstiX] Listening on port 3000'.blue.bold);
+
+/* FTP Server! */
+ftpd({ host: '127.0.0.1', port: 3001, root: '/home/seshpenguin/EstiNetBedrock/EstiAccessX/EAXServer/' }, (session) => {
+
+  session.on('pass', (username, password, cb) => {
+    if (username === 'EAXUser' && password === 'EAXPass') {
+      session.readOnly = false
+      session.root = '/home/seshpenguin/EstiNetBedrock/EstiAccessX/EAXServer/'
+      cb(null, '<--- Connected to EAXServer File Server --->')
+    } else {
+      cb(null, '<--- EAXServer AUTHENTICATION FAILED --->')
+      session.root = '/home/seshpenguin/EstiNetBedrock/EstiAccessX/EAXServer/stub/'
+    }
+  })
+
+  session.on('stat', fs.stat)
+  // AKA
+  // session.on('stat', (pathName, cb) => {
+  //  fs.stat(pathName, cb)
+  // })
+
+  session.on('readdir', fs.readdir)
+  // AKA
+  // session.on('readdir', (pathName, cb) => {
+  //   fs.readdir(pathName, cb)
+  // })
+
+  session.on('read', (pathName, offset, cb) => {
+    cb(null, fs.createReadStream(pathName, { start: offset }))
+  })
+
+  session.on('write', (pathName, offset, cb) => {
+    cb(null, fs.createWriteStream(pathName, { start: offset }))
+  })
+
+  // I'd do some checking if I were you, but hey.
+
+  session.on('mkdir', fs.mkdir)
+  session.on('unlink', fs.unlink)
+  session.on('rename', fs.rename)
+  session.on('remove', require('rimraf'))
+})
+console.log('[EstiX] File Server listening on port 3001'.blue.bold);
 
 
-
-//start server
+/* Minecraft Server! */
 //server = spawn('./spawn.sh', ['-jar', './server/PaperSpigot-latest.jar']);
 startServer();
 
