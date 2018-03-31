@@ -1,114 +1,116 @@
 [EstiX] Starting server...
-/home/seshpenguin/EstiNetBedrock/EstiAccessX/EAXServer/server
+/home/seshpenguin/Documents/EstiAccessX/EAXServer/server
 Loading libraries, please wait...
-2017-12-25 17:46:47,751 main WARN Disabling terminal, you're running in an unsupported environment.
-[17:46:49 INFO]: Starting minecraft server version 1.12.2
-[17:46:49 INFO]: Loading properties
-[17:46:49 INFO]: Default game type: SURVIVAL
-[17:46:49 INFO]: This server is running Paper version git-Paper-1283 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
-[17:46:49 INFO]: Server Ping Player Sample Count: 12
-[17:46:49 INFO]: Using 4 threads for Netty based IO
-[17:46:49 INFO]: Debug logging is disabled
-[17:46:49 INFO]: Generating keypair
-[17:46:49 INFO]: Starting Minecraft server on *:25565
-[17:46:49 INFO]: Using epoll channel type
-[17:46:49 INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:46:49 INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[17:46:49 INFO]: Preparing level "world"
-[17:46:49 INFO]: -------- World Settings For [world] --------
-[17:46:49 INFO]: Cactus Growth Modifier: 100%
-[17:46:49 INFO]: Cane Growth Modifier: 100%
-[17:46:49 INFO]: Melon Growth Modifier: 100%
-[17:46:49 INFO]: Mushroom Growth Modifier: 100%
-[17:46:49 INFO]: Pumpkin Growth Modifier: 100%
-[17:46:49 INFO]: Sapling Growth Modifier: 100%
-[17:46:49 INFO]: Wheat Growth Modifier: 100%
-[17:46:49 INFO]: NetherWart Growth Modifier: 100%
-[17:46:49 INFO]: Vine Growth Modifier: 100%
-[17:46:49 INFO]: Cocoa Growth Modifier: 100%
-[17:46:49 INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[17:46:49 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[17:46:49 INFO]: Mob Spawn Range: 4
-[17:46:49 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[17:46:49 INFO]: Random Lighting Updates: false
-[17:46:49 INFO]: Structure Info Saving: true
-[17:46:49 INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[17:46:49 INFO]: Max TNT Explosions: 100
-[17:46:49 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:46:49 INFO]: Item Despawn Rate: 6000
-[17:46:49 INFO]: Item Merge Radius: 2.5
-[17:46:49 INFO]: View Distance: 10
-[17:46:49 INFO]: Arrow Despawn Rate: 1200
-[17:46:49 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:46:49 INFO]: Experience Merge Radius: 3.0
-[17:46:49 INFO]: Zombie Aggressive Towards Villager: true
-[17:46:49 INFO]: Nerfing mobs spawned from spawners: false
-[17:46:50 INFO]: -------- World Settings For [world_nether] --------
-[17:46:50 INFO]: Cactus Growth Modifier: 100%
-[17:46:50 INFO]: Cane Growth Modifier: 100%
-[17:46:50 INFO]: Melon Growth Modifier: 100%
-[17:46:50 INFO]: Mushroom Growth Modifier: 100%
-[17:46:50 INFO]: Pumpkin Growth Modifier: 100%
-[17:46:50 INFO]: Sapling Growth Modifier: 100%
-[17:46:50 INFO]: Wheat Growth Modifier: 100%
-[17:46:50 INFO]: NetherWart Growth Modifier: 100%
-[17:46:50 INFO]: Vine Growth Modifier: 100%
-[17:46:50 INFO]: Cocoa Growth Modifier: 100%
-[17:46:50 INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[17:46:50 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[17:46:50 INFO]: Mob Spawn Range: 4
-[17:46:50 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[17:46:50 INFO]: Random Lighting Updates: false
-[17:46:50 INFO]: Structure Info Saving: true
-[17:46:50 INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[17:46:50 INFO]: Max TNT Explosions: 100
-[17:46:50 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:46:50 INFO]: Item Despawn Rate: 6000
-[17:46:50 INFO]: Item Merge Radius: 2.5
-[17:46:50 INFO]: View Distance: 10
-[17:46:50 INFO]: Arrow Despawn Rate: 1200
-[17:46:50 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:46:50 INFO]: Experience Merge Radius: 3.0
-[17:46:50 INFO]: Zombie Aggressive Towards Villager: true
-[17:46:50 INFO]: Nerfing mobs spawned from spawners: false
-[17:46:50 INFO]: -------- World Settings For [world_the_end] --------
-[17:46:50 INFO]: Cactus Growth Modifier: 100%
-[17:46:50 INFO]: Cane Growth Modifier: 100%
-[17:46:50 INFO]: Melon Growth Modifier: 100%
-[17:46:50 INFO]: Mushroom Growth Modifier: 100%
-[17:46:50 INFO]: Pumpkin Growth Modifier: 100%
-[17:46:50 INFO]: Sapling Growth Modifier: 100%
-[17:46:50 INFO]: Wheat Growth Modifier: 100%
-[17:46:50 INFO]: NetherWart Growth Modifier: 100%
-[17:46:50 INFO]: Vine Growth Modifier: 100%
-[17:46:50 INFO]: Cocoa Growth Modifier: 100%
-[17:46:50 INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[17:46:50 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[17:46:50 INFO]: Mob Spawn Range: 4
-[17:46:50 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[17:46:50 INFO]: Random Lighting Updates: false
-[17:46:50 INFO]: Structure Info Saving: true
-[17:46:50 INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[17:46:50 INFO]: Max TNT Explosions: 100
-[17:46:50 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:46:50 INFO]: Item Despawn Rate: 6000
-[17:46:50 INFO]: Item Merge Radius: 2.5
-[17:46:50 INFO]: View Distance: 10
-[17:46:50 INFO]: Arrow Despawn Rate: 1200
-[17:46:50 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:46:50 INFO]: Experience Merge Radius: 3.0
-[17:46:50 INFO]: Zombie Aggressive Towards Villager: true
-[17:46:50 INFO]: Nerfing mobs spawned from spawners: false
-[17:46:50 INFO]: Preparing start region for level 0 (Seed: -6653136808326069681)
-[17:46:51 INFO]: Preparing spawn area: 35%
-[17:46:51 INFO]: Preparing start region for level 1 (Seed: -6653136808326069681)
-[17:46:52 INFO]: Preparing start region for level 2 (Seed: -6653136808326069681)
-[17:46:52 INFO]: Done (2.745s)! For help, type "help" or "?"
-[17:46:52 INFO]: Timings Reset
-[17:49:41 INFO]: Stopping the server
-[17:49:41 INFO]: Stopping server
-[17:49:41 INFO]: Saving players
-[17:49:41 INFO]: Saving worlds
-[17:49:41 INFO]: Saving chunks for level 'world'/overworld
-[17:49:41 INFO]: Saving chunks for level 'world_nether'/the_nether
-[17:49:41 INFO]: Saving chunks for level 'world_the_end'/the_end
+2018-03-31 08:34:41,518 main WARN Disabling terminal, you're running in an unsupported environment.
+[08:34:43 INFO]: Starting minecraft server version 1.12.2
+[08:34:43 INFO]: Loading properties
+[08:34:43 INFO]: Default game type: SURVIVAL
+[08:34:43 INFO]: This server is running Paper version git-Paper-1283 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[08:34:43 INFO]: Server Ping Player Sample Count: 12
+[08:34:43 INFO]: Using 4 threads for Netty based IO
+[08:34:43 INFO]: Debug logging is disabled
+[08:34:43 INFO]: Generating keypair
+[08:34:43 INFO]: Starting Minecraft server on *:25565
+[08:34:43 INFO]: Using epoll channel type
+[08:34:43 INFO]: Server permissions file permissions.yml is empty, ignoring it
+[08:34:43 INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[08:34:43 INFO]: Preparing level "world"
+[08:34:44 INFO]: -------- World Settings For [world] --------
+[08:34:44 INFO]: Cactus Growth Modifier: 100%
+[08:34:44 INFO]: Cane Growth Modifier: 100%
+[08:34:44 INFO]: Melon Growth Modifier: 100%
+[08:34:44 INFO]: Mushroom Growth Modifier: 100%
+[08:34:44 INFO]: Pumpkin Growth Modifier: 100%
+[08:34:44 INFO]: Sapling Growth Modifier: 100%
+[08:34:44 INFO]: Wheat Growth Modifier: 100%
+[08:34:44 INFO]: NetherWart Growth Modifier: 100%
+[08:34:44 INFO]: Vine Growth Modifier: 100%
+[08:34:44 INFO]: Cocoa Growth Modifier: 100%
+[08:34:44 INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[08:34:44 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:34:44 INFO]: Mob Spawn Range: 4
+[08:34:44 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[08:34:44 INFO]: Random Lighting Updates: false
+[08:34:44 INFO]: Structure Info Saving: true
+[08:34:44 INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[08:34:44 INFO]: Max TNT Explosions: 100
+[08:34:44 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:34:44 INFO]: Item Despawn Rate: 6000
+[08:34:44 INFO]: Item Merge Radius: 2.5
+[08:34:44 INFO]: View Distance: 10
+[08:34:44 INFO]: Arrow Despawn Rate: 1200
+[08:34:44 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:34:44 INFO]: Experience Merge Radius: 3.0
+[08:34:44 INFO]: Zombie Aggressive Towards Villager: true
+[08:34:44 INFO]: Nerfing mobs spawned from spawners: false
+[08:34:45 INFO]: -------- World Settings For [world_nether] --------
+[08:34:45 INFO]: Cactus Growth Modifier: 100%
+[08:34:45 INFO]: Cane Growth Modifier: 100%
+[08:34:45 INFO]: Melon Growth Modifier: 100%
+[08:34:45 INFO]: Mushroom Growth Modifier: 100%
+[08:34:45 INFO]: Pumpkin Growth Modifier: 100%
+[08:34:45 INFO]: Sapling Growth Modifier: 100%
+[08:34:45 INFO]: Wheat Growth Modifier: 100%
+[08:34:45 INFO]: NetherWart Growth Modifier: 100%
+[08:34:45 INFO]: Vine Growth Modifier: 100%
+[08:34:45 INFO]: Cocoa Growth Modifier: 100%
+[08:34:45 INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[08:34:45 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:34:45 INFO]: Mob Spawn Range: 4
+[08:34:45 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[08:34:45 INFO]: Random Lighting Updates: false
+[08:34:45 INFO]: Structure Info Saving: true
+[08:34:45 INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[08:34:45 INFO]: Max TNT Explosions: 100
+[08:34:45 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:34:45 INFO]: Item Despawn Rate: 6000
+[08:34:45 INFO]: Item Merge Radius: 2.5
+[08:34:45 INFO]: View Distance: 10
+[08:34:45 INFO]: Arrow Despawn Rate: 1200
+[08:34:45 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:34:45 INFO]: Experience Merge Radius: 3.0
+[08:34:45 INFO]: Zombie Aggressive Towards Villager: true
+[08:34:45 INFO]: Nerfing mobs spawned from spawners: false
+[08:34:45 INFO]: -------- World Settings For [world_the_end] --------
+[08:34:45 INFO]: Cactus Growth Modifier: 100%
+[08:34:45 INFO]: Cane Growth Modifier: 100%
+[08:34:45 INFO]: Melon Growth Modifier: 100%
+[08:34:45 INFO]: Mushroom Growth Modifier: 100%
+[08:34:45 INFO]: Pumpkin Growth Modifier: 100%
+[08:34:45 INFO]: Sapling Growth Modifier: 100%
+[08:34:45 INFO]: Wheat Growth Modifier: 100%
+[08:34:45 INFO]: NetherWart Growth Modifier: 100%
+[08:34:45 INFO]: Vine Growth Modifier: 100%
+[08:34:45 INFO]: Cocoa Growth Modifier: 100%
+[08:34:45 INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[08:34:45 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:34:45 INFO]: Mob Spawn Range: 4
+[08:34:45 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[08:34:45 INFO]: Random Lighting Updates: false
+[08:34:45 INFO]: Structure Info Saving: true
+[08:34:45 INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[08:34:45 INFO]: Max TNT Explosions: 100
+[08:34:45 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:34:45 INFO]: Item Despawn Rate: 6000
+[08:34:45 INFO]: Item Merge Radius: 2.5
+[08:34:45 INFO]: View Distance: 10
+[08:34:45 INFO]: Arrow Despawn Rate: 1200
+[08:34:45 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:34:45 INFO]: Experience Merge Radius: 3.0
+[08:34:45 INFO]: Zombie Aggressive Towards Villager: true
+[08:34:45 INFO]: Nerfing mobs spawned from spawners: false
+[08:34:45 INFO]: Preparing start region for level 0 (Seed: -6653136808326069681)
+[08:34:46 INFO]: Preparing spawn area: 0%
+[08:34:47 INFO]: Preparing start region for level 1 (Seed: -6653136808326069681)
+[08:34:47 INFO]: Preparing start region for level 2 (Seed: -6653136808326069681)
+[08:34:47 INFO]: Done (3.964s)! For help, type "help" or "?"
+[08:34:47 INFO]: Timings Reset
+[08:34:51 INFO]: Unknown command. Type "/help" for help.
+[08:35:02 INFO]: Unknown command. Type "/help" for help.
+[08:35:03 INFO]: Stopping the server
+[08:35:03 INFO]: Stopping server
+[08:35:03 INFO]: Saving players
+[08:35:04 INFO]: Saving worlds
+[08:35:04 INFO]: Saving chunks for level 'world'/overworld
+[08:35:04 INFO]: Saving chunks for level 'world_nether'/the_nether
+[08:35:04 INFO]: Saving chunks for level 'world_the_end'/the_end

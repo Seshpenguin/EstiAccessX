@@ -146,6 +146,6 @@ world-settings:
     fire-physics-event-for-redstone: false
     mob-spawner-tick-rate: 1
     all-chunks-are-slime-chunks: false
-    disable-teleportation-suffocation-check: false
     enable-treasure-maps: true
     treasure-maps-return-already-discovered: false
+    disable-teleportation-suffocation-check: false
